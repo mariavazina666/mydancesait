@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        Танцевальная студия танцев IDC
+        </title>
+        <meta name="description" content="Блочная верстка HTML5">
+        <style>
+            div {vertical-align: baseline;}
+            * {box-sizing: border-box;}
+            #header h1 {
+                font-size: 24px;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding: 30px 30px 30px 10px;
+                clear: both;
+                text-align: center;
+                text-shadow: 5px 4px 3px #ecf3f2;
+             }
+             #nav {background-color: rgb(157, 203, 234);
+                border-top: 1px solid #e3f5f7;
+                border-bottom: 1px solid #f7f3f3;
+                }
+            #nav ul:after {content: " ";
+                display: table;
+                clear: both;
+                }
+            #nav li {float: left;
+                list-style: none;   
+                }
+            #nav a {display: block;
+                color: black;
+                padding: 10px 25px;
+                text-decoration: none;
+                border-right: 3px solid rgb(237, 241, 250);
+                font-size: xx-large;
+                }
+            #nav li:last-child a {border-right: none; 
+                }
+            #wrapper {
+                min-height: 500px;
+                background-image: url(https://sd43.ru/media/uploads/ooo-palestra/non-exhibition/project-27/ania-kukhnia-1.jpg.); 
+background-size: 100% 100%;  
+            }
+            #sidebar-left {
+                padding: 10px 10px 10px 10px;
+                float: left;
+                width: 25%;}
+            #sidebar-right {
+                padding: 10px 10px 10px 10px;
+                float: right;
+                width: 25%;}
+            #main {
+                padding: 10px 10px 10px 10px;
+                margin-left: 27%;
+                margin-right: 27%;
+                min-height: 500px;
+                background-color: rgba(255, 255, 255, 0.75);
+                /*float: left;*/
+                }
+            #footer {
+                background-color: rgb(212, 221, 221);
+                clear: both;
+                padding: 15px 50px 15px 50px;
+                text-align: center;
+                }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Танцевальная студия танцев IDC </h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Услуги</a></li>
+                <li><a href="about.html">Руководитель</a></li>
+            </ul>
+        </div>
+        <div id="wrapper">
+            <div id="sidebar-left">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Услуги</a></li>
+                    <li><a href="about.html">Руководитель</a></li>
+                </ul>
+            </div>
+            <div id="sidebar-right">
+                <p>Правый сайдбар c новостями о проектах студии танцев IDC </p>
+             </div>
+            <div id="main">
+                <p>Более чем 2000 танцовщиков разных стилей, увлеченные своим делом.</p>
+                <p>У нас только фанаты своего дела! Люди, которые живут танцем и заряжают</p>
+                <p>Организуем проекты в разных сферах, уникальное IDC SHOW, постоянные кастинги и выступления. </p>
+                <p>Сотрудничаем с партнерами, которые ценят качество</p>
+                <p>9 стильных залов, души и раздевалки</p>
+            </div>
+        </div>
+        <div id="footer">Это подвал с копирайтом</div>
+    </body>
+</html>   
